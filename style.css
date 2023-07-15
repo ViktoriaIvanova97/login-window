@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	height: 0;
+	background-color: rgba(224, 222, 219, 0.425);
+	padding-top: 20px;
+}
+
+.wrapper{
+	width: 500px;
+	background-color: #fff;
+	margin: auto;
+}
+
+.block{
+	padding: 30px 0 30px 0;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.main{
+	max-width: 80%;
+	margin: auto;
+}
+
+h1{
+	text-align: center;
+}
+
+form{
+	text-align: center;
+	display: grid;
+	gap: 15px 0;
+	margin-bottom: 20px;
+	
+}
+
+.userlog,
+.userpassword{
+	
+	height: 20px;
+	border: 2px solid rgba(252, 179, 45, 0.849);
+	border-radius: 10px;
+	outline: none;
+}
+
+
+.checkbox{
+	text-align: right;
+	
+}
+
+.footer{
+	text-align: center;
+	margin: auto;
+	
+}
+
+.button{
+	border: 0;
+  border-radius: 0;
+  background: #ccc;
+  height: 40px;
+  width: 100%;
+  max-width: 80%;
+  margin-top: 20px;
+  background-color: rgba(252, 179, 45, 0.849);
+  font-weight: 800;
+  letter-spacing:2px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s
+}
+
+.button:hover{
+	box-shadow: 0 0 5px rgba(245, 148, 3, 0.918);
+	transform: scale(1.05)
+}
